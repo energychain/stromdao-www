@@ -1,0 +1,81 @@
+extends(src='layout.sgr')
+  block(name='content')
+    h1 Dezentral. Autonom. Elektrisch. Ein Energieversorger zum mitmachen.
+    p.
+      StromDAO ist der einzige Energieversorger, bei dem sich Kunden und
+      Geschaftspartner an allen Produkt- und Unternehmensentscheidungen
+      beteiligen können.
+    button(href='#') Jetzt Stimmrechte sichern
+    button(href='#') oder Stromkunde werden
+
+    hr
+
+    h3 Mitmachen & Beteiligen.
+    p.
+      StromDAO ist eine dezentrale und autonome Plattform für Energie. Unsere
+      Stromkunden oder Partner können sich aktiv an der Entwicklung und Vermarktung
+      innovativer Produkte und Technologien für den Energiesektor beteiligen.
+      Mit StromDAO Stimmrechten entscheiden Sie, welchen Ideen umgesetzt werden.
+    div
+      a(href='#') Stimmrechte erwerden
+    div
+      a(href='#') Neue Produkte mitgestalten
+    div
+      a(href='#') Umsetzung begleiten
+
+    h3 Strom für jeden Haushalt.
+    p.
+      StromDAO liefert deutschlandweite elektische Energie an Privathaushalte.
+      Mit ihrem persönliches Stromkonto behalten Sie immer den Überblick über
+      Ihren Verbrauch und die damit Verbundenen kosten. Hohe Nachzahlungen
+      gehören damit ab sofort der Vergangenheit an.
+    div
+      a(href='#') Mehr über den StromDAO Tarif erfahren
+    div
+      a(href='#') Informationen zum Stromkonto
+    div
+      a(href='#') Umsetzung begleiten
+
+    hr
+
+    h3 The Stack:
+    ul
+      li
+        a(href='#') Über StromDAO
+      li
+        a(href='#') Stimmrechte erwerben
+      li
+        a(href='#') Organisation und Geschäftsführung
+      li
+        a(href='#') Newsletter
+      li
+        a(href='#') Transparenz - Transaktionen und Konten
+      li
+        a(href='#') Wissenswertes zur StromDAO
+      li
+        a(href='#') Innovation bei der StromDAO
+
+    small
+      h4 Menü
+      ul
+        li: a(href='#') Startseite
+      ul
+        li: a(href='#')Über
+      ul
+        li: a(href='#')Stromkunde werden
+      ul
+        li: a(href='#')Regional Communities
+      ul
+        li: a(href='#')Investoren Bereich
+      ul
+        li: a(href='#')Geschäftsführung
+
+      h4 Footer
+      ul
+        li: a(href='#') Wechseln zur StromDAO
+      ul
+        li: a(href='#') Stimmrechte Konto
+      ul
+        li: a(href='#') Telefonischer Rückruf
+      ul
+        li: a(href='#') Impressum
