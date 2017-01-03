@@ -12,9 +12,9 @@ module.exports = {
   devtool: 'source-map',
   matchers: {
     html: '*(**/)*.sgr',
-    css: '*(**/)*.sss'
+    css: '*(**/)*.css'
   },
-  ignore: ['**/layout.sgr', '**/_*', '**/.*', '_cache/**', 'readme.md'],
+  ignore: ['**/layout.sgr', '**/_*', '**/.*', '_cache/**', 'readme.md', 'css_modules'],
   reshape: (ctx) => {
     return htmlStandards({
       webpack: ctx,
@@ -22,8 +22,12 @@ module.exports = {
     })
   },
   postcss: (ctx) => {
-    // return cssStandards({ webpack: ctx })
-    const css = { plugins: [] }
+    // const css = cssStandards({ parser: false, webpack: ctx })
+    const css = {
+      parser: false,
+      webpack: ctx,
+      plugins: []
+    }
     css.plugins.push(require('postcss-import')({
       root: ctx.resourcePath,
       addDependencyTo: ctx,
