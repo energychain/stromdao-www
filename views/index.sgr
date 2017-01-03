@@ -1,81 +1,57 @@
 extends(src='layout.sgr')
   block(name='content')
-    h1 Dezentral. Autonom. Elektrisch. Ein Energieversorger zum mitmachen.
-    p.
-      StromDAO ist der einzige Energieversorger, bei dem sich Kunden und
-      Geschaftspartner an allen Produkt- und Unternehmensentscheidungen
-      beteiligen können.
-    button(href='#') Jetzt Stimmrechte sichern
-    button(href='#') oder Stromkunde werden
+    section.w-100
+      article(class='pb5')
+        div.ph3.ph5-ns
+          div(class='cf mw9 center tc-m')
+            div(class='pb3 pb4-ns pt4 pt5-ns mt5 black-70 fl-l w-50-l')
+              h1.f4.fw6.f1-ns.lh-title.measure.mt0
+                | Dezentral. Autonom. Elektrisch.
+              p.f5.f4-ns.fw4.measure.dib-m.lh-copy.
+                StromDAO ist der erste Energieversorger zum mitmachen. Wir ermöglichen es unseren Kunden und Geschaftspärtnern, sich an allen Produkt- und Unternehmensentscheidungen beteiligen.
+            div(class=' fl-l w-50-l tl tc-ns pt3 pt4-m mt5-l pt6-l')
+              a(href='#' class='f6 f5-ns fw6 dib ba b--black-20 bg-blue white ph3 ph4-ns  pv2 pv3-ns br2  no-underline mb4')
+                | Jetzt Stimmrechte sichern
+              a(href='#' class='f6 f5-ns fw6 dib ba b--blue blue ph3 ph4-ns pv2 pv3-ns br2 no-underline mb4')
+                | oder Stromkunde werden
+              // button(type='button') oder Stromkunde werden
 
-    hr
+      article(class='bt b--black-10 bg-washed-blue black-70 ph3 ph5-ns pv4 pv5-ns' id='getting-started')
 
-    h3 Mitmachen & Beteiligen.
-    p.
-      StromDAO ist eine dezentrale und autonome Plattform für Energie. Unsere
-      Stromkunden oder Partner können sich aktiv an der Entwicklung und Vermarktung
-      innovativer Produkte und Technologien für den Energiesektor beteiligen.
-      Mit StromDAO Stimmrechten entscheiden Sie, welchen Ideen umgesetzt werden.
-    div
-      a(href='#') Stimmrechte erwerden
-    div
-      a(href='#') Neue Produkte mitgestalten
-    div
-      a(href='#') Umsetzung begleiten
+        section(class='cf mw9 center' )
+          h1(class='mt0 f5 f3-ns')
+            | Loslegen und mitmachen.
+          p(class='f5 measure lh-copy dib-l mr4-ns').
+            StromDAO ist eine dezentrale und autonome Plattform für Energie. Unsere
+            Stromkunden oder Partner können sich aktiv an der Entwicklung und Vermarktung
+            innovativer Produkte und Technologien für den Energiesektor beteiligen.
+            Mit StromDAO Stimmrechten entscheiden Sie selbst über Ihre Energie.
+          ul(class='dib-l v-top-l list pl0 ')
+            li(class='pb2')
+              a(href='#' class='f5 fw6 blue no-underline underline-hover')
+                | Stimmrechte erwerben
+            li(class='pb2')
+              a(href='#' class='f5 fw6 blue no-underline underline-hover')
+                | Neue Produkte mitgestalten
+            li
+              a(href='#' class='f5 fw6 blue no-underline underline-hover')
+                | Umsetzung begleiten
 
-    h3 Strom für jeden Haushalt.
-    p.
-      StromDAO liefert deutschlandweite elektische Energie an Privathaushalte.
-      Mit ihrem persönliches Stromkonto behalten Sie immer den Überblick über
-      Ihren Verbrauch und die damit Verbundenen kosten. Hohe Nachzahlungen
-      gehören damit ab sofort der Vergangenheit an.
-    div
-      a(href='#') Mehr über den StromDAO Tarif erfahren
-    div
-      a(href='#') Informationen zum Stromkonto
-    div
-      a(href='#') Umsetzung begleiten
-
-    hr
-
-    h3 The Stack:
-    ul
-      li
-        a(href='#') Über StromDAO
-      li
-        a(href='#') Stimmrechte erwerben
-      li
-        a(href='#') Organisation und Geschäftsführung
-      li
-        a(href='#') Newsletter
-      li
-        a(href='#') Transparenz - Transaktionen und Konten
-      li
-        a(href='#') Wissenswertes zur StromDAO
-      li
-        a(href='#') Innovation bei der StromDAO
-
-    small
-      h4 Menü
-      ul
-        li: a(href='#') Startseite
-      ul
-        li: a(href='#')Über
-      ul
-        li: a(href='#')Stromkunde werden
-      ul
-        li: a(href='#')Regional Communities
-      ul
-        li: a(href='#')Investoren Bereich
-      ul
-        li: a(href='#')Geschäftsführung
-
-      h4 Footer
-      ul
-        li: a(href='#') Wechseln zur StromDAO
-      ul
-        li: a(href='#') Stimmrechte Konto
-      ul
-        li: a(href='#') Telefonischer Rückruf
-      ul
-        li: a(href='#') Impressum
+        section(class='bt b--black-10 pv5 mt5 mw9 center')
+          h1(class='mt0 f5 f3-ns')
+            | Strom für Ihr Zuhause.
+          p(class='f5 measure lh-copy dib-l mr4-ns').
+            StromDAO liefert deutschlandweite elektische Energie an Privathaushalte.
+            Mit ihrem persönliches Stromkonto behalten Sie immer den Überblick über
+            Ihren Verbrauch und die damit Verbundenen kosten. Hohe Nachzahlungen
+            gehören damit ab sofort der Vergangenheit an.
+          ul(class='dib-l v-top-l list pl0 ')
+            li(class='pb2')
+              a(href='#' class='f5 fw6 blue no-underline underline-hover')
+                | Mehr über den StromDAO Tarif erfahren
+            li(class='pb2')
+              a(href='#' class='f5 fw6 blue no-underline underline-hover')
+                | Informationen zum Stromkonto
+            li(class='pb2')
+              a(href='#' class='f5 fw6 blue no-underline underline-hover')
+                | Umsetzung begleiten

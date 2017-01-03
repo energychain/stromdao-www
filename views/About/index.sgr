@@ -1,56 +1,58 @@
-extends(src='layout.sgr')
+extends(src='../layout.sgr')
   block(name='content')
-    div(md).
-      ## Markt
-      ---
-      Stromanbieter sind Marken, welche durch einen [Dienstleister](http://stromdao.de/dienstleister)
-      erbracht; Stromtarife für ihre [Kunden](http://stromdao.de/stromkunden) anbieten. Die **_Kosten_**, welche mit der Führung einer Marke verbunden sind, bringen bei einem generischen Produkt, wie die Stromversorgung, **_keinen Mehrwert_** für den Kunden. Der jeweilige Dienstleister verbleibt im Hintergrund und erbringt die eigentliche Leistung im Rahmen eines White-Label-Produktes.
+    div(class='bt b--black-10 black-70 ph3 ph5-ns pv4 pv5-ns')
+      div(class='mw9 center')
+        div(md class='f4 lh-copy measure-wide').
+          ## Markt
+          ---
+          Stromanbieter sind Marken, welche durch einen [Dienstleister](http://stromdao.de/dienstleister)
+          erbracht; Stromtarife für ihre [Kunden](http://stromdao.de/stromkunden) anbieten. Die **_Kosten_**, welche mit der Führung einer Marke verbunden sind, bringen bei einem generischen Produkt, wie die Stromversorgung, **_keinen Mehrwert_** für den Kunden. Der jeweilige Dienstleister verbleibt im Hintergrund und erbringt die eigentliche Leistung im Rahmen eines White-Label-Produktes.
 
-      Im Zuge der Digitalisierung der Energiewende wird es zu einer neuen Definition des **_Produktes Strom_** kommen. Die Aufgaben der Markenführung, der Tarifgestaltung und der Vermarktung wird zunehmend durch die Gemeinschaft der Kunden übernommen, wodurch vor allem die Wertschöpfungskette des Marktes verändert wird.
+          Im Zuge der Digitalisierung der Energiewende wird es zu einer neuen Definition des **_Produktes Strom_** kommen. Die Aufgaben der Markenführung, der Tarifgestaltung und der Vermarktung wird zunehmend durch die Gemeinschaft der Kunden übernommen, wodurch vor allem die Wertschöpfungskette des Marktes verändert wird.
 
-      An die Stelle der bisherigen Vermittler (Stromanbieter, Vergleichsportale) tritt eine dezentrale und autonome Organisationsstruktur auf Basis der Blockchain Technologie ([Wikipedia: DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization)), welche den Marketing-Mix (Produkt, Preis, Distribution und Kommunikation) ohne zusätzliche Kosten bestimmt.
-      - [Einen Stromanbieter aus der Blockchain gründen](https://blog.stromhaltig.de/2016/06/einen-stromanbieter-aus-der-blockchain-gruenden-strom-dao/) (blog.stromhaltig, 18.06.2016)
-
-
-      ## Umsetzung
-      ---
-      Sobald eine einfache Mehrheit der Stimmrechte für einen Dienstleister vorhanden ist und die notwendige Finanzierung (Angebot des Dienstleisters + 20% Liquiditätsreserve) gesichert ist, wird der Dienstleister beauftragt.
-
-      Die Investitionen der [Stromkunden](http://stromdao.de/stromkunden) werden über einen [SmartContract](http://stromdao.de/smartcontract) abgesichert und können nur durch Mehrheitsbeschluss verwendet werden.
-
-      Die Anteile an der StromDAO werden als [Coin/Token](http://stromdao.de/coin) in der öffentlichen Ethereum Blockchain registriert. Jedem Besitzer von Coins/Tokens ist es frei diese weiterzugeben oder zu handeln.
-
-      Ist der Auftrag an den Dienstleister vergeben, werden durch die Besitzer der Coins/Tokens die [Vermarktung](http://stromdao.de/vermarktung) und [Tarifgestaltung](http://stromdao.de/tarifgestaltung) mitbestimmt.
-
-      - [Strom DAO einfach erklärt](https://blog.stromhaltig.de/2016/06/strom-dao-einfacher-erklaert/) (blog.stromhaltig 19.06.2016)
-      Bearbeiten
+          An die Stelle der bisherigen Vermittler (Stromanbieter, Vergleichsportale) tritt eine dezentrale und autonome Organisationsstruktur auf Basis der Blockchain Technologie ([Wikipedia: DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization)), welche den Marketing-Mix (Produkt, Preis, Distribution und Kommunikation) ohne zusätzliche Kosten bestimmt.
+          - [Einen Stromanbieter aus der Blockchain gründen](https://blog.stromhaltig.de/2016/06/einen-stromanbieter-aus-der-blockchain-gruenden-strom-dao/) (blog.stromhaltig, 18.06.2016)
 
 
-      ## Rechtliche Struktur
-      ---
-      Die Organisationsform einer DAO (Smart Contract auf Basis der Blockchain Technologie) ist zu neu, als dass eine finale Aussage zu rechtlichen Struktur gegeben werden kann. Höchstwahrscheinlich wird die Einzahlung der „Investoren“ als eine Interessensgemeinschaft im Sinne des BGB gewertet.
-      [Wikipedia Blockchain](https://de.wikipedia.org/wiki/Blockchain) und [Wikipedia Decentralized Autonomous Organization (DAO)](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization).
+          ## Umsetzung
+          ---
+          Sobald eine einfache Mehrheit der Stimmrechte für einen Dienstleister vorhanden ist und die notwendige Finanzierung (Angebot des Dienstleisters + 20% Liquiditätsreserve) gesichert ist, wird der Dienstleister beauftragt.
+
+          Die Investitionen der [Stromkunden](http://stromdao.de/stromkunden) werden über einen [SmartContract](http://stromdao.de/smartcontract) abgesichert und können nur durch Mehrheitsbeschluss verwendet werden.
+
+          Die Anteile an der StromDAO werden als [Coin/Token](http://stromdao.de/coin) in der öffentlichen Ethereum Blockchain registriert. Jedem Besitzer von Coins/Tokens ist es frei diese weiterzugeben oder zu handeln.
+
+          Ist der Auftrag an den Dienstleister vergeben, werden durch die Besitzer der Coins/Tokens die [Vermarktung](http://stromdao.de/vermarktung) und [Tarifgestaltung](http://stromdao.de/tarifgestaltung) mitbestimmt.
+
+          - [Strom DAO einfach erklärt](https://blog.stromhaltig.de/2016/06/strom-dao-einfacher-erklaert/) (blog.stromhaltig 19.06.2016)
+          Bearbeiten
 
 
-      ## Haftung (Stimmberechtigte)
-      ---
-      Die Investoren haften lediglich mit ihren Einlagen, welche zur Erfüllung der Geschäftstätigkeit verwendet werden. Der Zugriff auf die Einlagen wird durch den unveränderlichen Smart Contract beschränkt und bedarf der Zustimmung von mindestens 50% des verwalteten Betrages (Stimmrechte). Die Auszahlung erfolgt nach Abstimmung auf einem weiterem Smart Contract, bei dem 2 Stimmen von 3 Direktoren benötigt werden, um das Geld tatsächlich auszuzahlen (zum Beispiel für Werbeaufwendungen, PR, Hosting,…). ⇒ [ Wikipedia Smart Contract](https://de.wikipedia.org/wiki/Smart_Contract)
+          ## Rechtliche Struktur
+          ---
+          Die Organisationsform einer DAO (Smart Contract auf Basis der Blockchain Technologie) ist zu neu, als dass eine finale Aussage zu rechtlichen Struktur gegeben werden kann. Höchstwahrscheinlich wird die Einzahlung der „Investoren“ als eine Interessensgemeinschaft im Sinne des BGB gewertet.
+          [Wikipedia Blockchain](https://de.wikipedia.org/wiki/Blockchain) und [Wikipedia Decentralized Autonomous Organization (DAO)](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization).
 
 
-      ##Stromvertrieb
-      ---
-      Das Stromangebot selbst wird zunächst durch ein Dienstleister erbracht, der das volle Inkassorisiko trägt und die Einhaltung der Marktprozesse verantwortet. Die Limited erhält eine Provision, welches dem Kapital der Interssensgemeinschaft (DAO) zugeordnet wird.
+          ## Haftung (Stimmberechtigte)
+          ---
+          Die Investoren haften lediglich mit ihren Einlagen, welche zur Erfüllung der Geschäftstätigkeit verwendet werden. Der Zugriff auf die Einlagen wird durch den unveränderlichen Smart Contract beschränkt und bedarf der Zustimmung von mindestens 50% des verwalteten Betrages (Stimmrechte). Die Auszahlung erfolgt nach Abstimmung auf einem weiterem Smart Contract, bei dem 2 Stimmen von 3 Direktoren benötigt werden, um das Geld tatsächlich auszuzahlen (zum Beispiel für Werbeaufwendungen, PR, Hosting,…). ⇒ [ Wikipedia Smart Contract](https://de.wikipedia.org/wiki/Smart_Contract)
 
 
-      ##Aufgaben der Direktoren
-      ---
-      Aufgabe der Direktoren ist es die Vorschläge zur Verwendung der Einlagen auszuarbeiten und bei erfolgreicher Abstimmung die entsprechenden Aktionen (Beauftragungen Dritter) zu veranlassen.
-
-      Die Direktoren erhalten jeweils 1/3 der Anteile einer zu gründenden Limited Company (UK), unter deren Namen die DAO-Interessengemeinschaft (Investoren) nach außen tätig wird. Die Direktoren werden damit zu jeweils gleichen Anteilen Gesellschafter der juristischen Rechtsperson, die die DAO-Interessengemeinschaft operativ nach außen vertritt.
-
-      Die Limited Company und mit Ihr die Direktoren bilden die Schnittstelle der DAO-Interessengemeinschaft in die „echte Welt“, um auch tatsächlich Geschäfte abzuwickeln. Es sollte mindestens 3 Direktoren geben, um auch bei möglichen Konflikten / Meinungsverschiedenheiten Entscheidungen treffen zu können.
+          ## Stromvertrieb
+          ---
+          Das Stromangebot selbst wird zunächst durch ein Dienstleister erbracht, der das volle Inkassorisiko trägt und die Einhaltung der Marktprozesse verantwortet. Die Limited erhält eine Provision, welches dem Kapital der Interssensgemeinschaft (DAO) zugeordnet wird.
 
 
-      ##Haftung (Direktoren)
-      ---
-      Die Direktoren werden hinsichtlich der Haftung durch die Limited abgesichert. Bei der Limited Company handelt es sich um eine Kapitalgesellschaft, deren Grundkapital in Anteile (shares) zerlegt ist; die Haftung der DAO-Direktoren als Anteilsinhaber der Limited ist auf dieses Kapital beschränkt (wie bei einer GmbH).
+          ## Aufgaben der Direktoren
+          ---
+          Aufgabe der Direktoren ist es die Vorschläge zur Verwendung der Einlagen auszuarbeiten und bei erfolgreicher Abstimmung die entsprechenden Aktionen (Beauftragungen Dritter) zu veranlassen.
+
+          Die Direktoren erhalten jeweils 1/3 der Anteile einer zu gründenden Limited Company (UK), unter deren Namen die DAO-Interessengemeinschaft (Investoren) nach außen tätig wird. Die Direktoren werden damit zu jeweils gleichen Anteilen Gesellschafter der juristischen Rechtsperson, die die DAO-Interessengemeinschaft operativ nach außen vertritt.
+
+          Die Limited Company und mit Ihr die Direktoren bilden die Schnittstelle der DAO-Interessengemeinschaft in die „echte Welt“, um auch tatsächlich Geschäfte abzuwickeln. Es sollte mindestens 3 Direktoren geben, um auch bei möglichen Konflikten / Meinungsverschiedenheiten Entscheidungen treffen zu können.
+
+
+          ## Haftung (Direktoren)
+          ---
+          Die Direktoren werden hinsichtlich der Haftung durch die Limited abgesichert. Bei der Limited Company handelt es sich um eine Kapitalgesellschaft, deren Grundkapital in Anteile (shares) zerlegt ist; die Haftung der DAO-Direktoren als Anteilsinhaber der Limited ist auf dieses Kapital beschränkt (wie bei einer GmbH).
