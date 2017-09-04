@@ -1,6 +1,8 @@
-# Spike projekt template
+# STROMDAO website
 
-Repository of www.stromdao.de
+Repository for www.stromdao.de
+
+[![Build Status](https://travis-ci.org/energychain/stromdao-www.svg?branch=master)](https://travis-ci.org/energychain/stromdao-www) [![Greenkeeper badge](https://badges.greenkeeper.io/energychain/stromdao-www.svg)](https://greenkeeper.io/)
 
 ## Setup
 
@@ -15,4 +17,4 @@ Tests are located in `test/**` and are powered by [ava](https://github.com/sindr
 - `npm install` to ensure devDeps are installed
 - `npm test` to run test suite
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/energychain/stromdao-www.svg)](https://greenkeeper.io/)
+
