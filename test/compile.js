@@ -19,4 +19,6 @@ test('compiles project with spike', (t) => {
     project.on('compile', resolve)
     project.compile()
   })
+    .then(r => { t.pass() })
+    .catch(err => { t.fail(err) })
 })
