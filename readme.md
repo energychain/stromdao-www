@@ -1,6 +1,6 @@
 # Spike projekt template
 
-just a template for a simple Spike project
+Repository of www.stromdao.de
 
 ## Setup
 
@@ -14,3 +14,5 @@ just a template for a simple Spike project
 Tests are located in `test/**` and are powered by [ava](https://github.com/sindresorhus/ava)
 - `npm install` to ensure devDeps are installed
 - `npm test` to run test suite
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/energychain/stromdao-www.svg)](https://greenkeeper.io/)
