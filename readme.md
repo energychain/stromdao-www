@@ -1,5 +1,7 @@
 # StromDAO  website
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/energychain/stromdao-www.svg)](https://greenkeeper.io/)
+
 Repository of www.stromdao.de
 
 ## Setup
