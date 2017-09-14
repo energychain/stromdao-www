@@ -1,7 +1,7 @@
 {
   "name": "stromdao-www",
   "description": "STROMDAO website",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "STROMDAO LTD",
   "license": "MIT",
   "ava": {
