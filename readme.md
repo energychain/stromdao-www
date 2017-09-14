@@ -19,4 +19,5 @@ Tests are located in `test/**` and are powered by [ava](https://github.com/sindr
 
 
 ## Notes
-This website is built with [Spike](https://github.com/static-dev/spike). Documentation of Spike and [Spike Standards](https://spike.readme.io/docs/introduction) is available at [https://spike.readme.io/docs](https://spike.readme.io/docs)
+ - This website is built with [Spike](https://github.com/static-dev/spike). Documentation of Spike and [Spike Standards](https://spike.readme.io/docs/introduction) is available at [https://spike.readme.io/docs](https://spike.readme.io/docs)
+ - Styling is done with [Tachyons](https://github.com/tachyons-css/tachyons/). Find the tacyons documentation at [http://tachyons.io/docs/](http://tachyons.io/docs/)
