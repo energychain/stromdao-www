@@ -1,0 +1,24 @@
+<extends src='../layout.html'>
+
+  <block name="stylesheets">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  </block>
+
+
+  <block name='content'>
+    <article class="pa3 ph5-ns">
+      <div class="mw7 center mt5">
+        <h6 class="f6 ttu tracked mt0">Artikel</h6>
+        <h1 class="f4 f2-ns fw4 measure mt0">
+          {{ item.data.title }}
+        </h1>
+        <div class="md-wrapper mt6" md> {{ item.content }} </div>
+      </div>
+    </article>
+  </block>
+
+  <block name="javascript">
+    <script src='../js/main.js' defer></script>
+  </block>
+</extends>

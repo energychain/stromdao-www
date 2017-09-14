@@ -1,25 +1,29 @@
 {
-  "name": "spike-projekt-template",
-  "description": "just a template for a simple Spike project",
-  "version": "0.0.1",
-  "author": "energychain",
+  "name": "stromdao-www",
+  "description": "STROMDAO website",
+  "version": "0.1.0",
+  "author": "STROMDAO LTD",
+  "license": "MIT",
   "ava": {
     "verbose": "true"
   },
-  "bugs": "https://github.com/energychain/spike-projekt-template/issues",
+  "bugs": "https://github.com/energychain/stromdao-www/issues",
   "dependencies": {
+    "markdown-it-highlightjs": "^3.0.0",
     "reshape-standard": "^3.1.1",
     "spike": "^2.2.0",
     "spike-css-standards": "^3.0.0",
     "spike-js-standards": "^2.0.2",
     "spike-optimize": "^0.1.2",
-    "spike-page-id": "^1.0.0"
+    "spike-page-id": "^1.0.0",
+    "spike-records": "^2.1.0",
+    "spike-records-loaddir": "^3.6.0"
   },
   "devDependencies": {
     "ava": "^0.22.0",
-    "nyc": "^11.1.0",
+    "nyc": "^11.2.1",
     "prettier-standard": "^6.0.0",
-    "rimraf": "^2.6.1",
+    "rimraf": "^2.6.2",
     "snazzy": "^7.0.0",
     "standard": "^10.0.3"
   },

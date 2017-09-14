@@ -1,42 +1,60 @@
 <extends src='layout.html'>
   <block name='content'>
-    <section class="bg-black-0125 w-100">
+
+    <section class="w-100">
       <article class="pb4">
         <div class="ph3 ph5-ns">
-          <div class="cf mw9 center tc-m">
-            <div class="fl w-100 overflow-auto v-top mt4 mt5-ns">
-              <iframe src="https://ghbtns.com/github-btn.html?user=energychain&type=follow&count=false&size=small" frameborder="0" scrolling="0" width="136px" height="32px"></iframe>
-              <a href="https://gitter.im/stromdao/Lobby" class="twitter bg-white-50 dim link dib mb2 br2 ph2 pb1 lh-solid v-top" style="padding-top:2px;">
+
+          <div class="mw9 center">
+            <div class="overflow-auto mt4 mt5-ns">
+              <iframe src="https://ghbtns.com/github-btn.html?user=energychain&type=follow&count=false&size=small"
+                frameborder="0"
+                scrolling="0"
+                width="136px"
+                height="32px">
+              </iframe>
+              <a href="https://gitter.im/stromdao/Lobby"
+                class="twitter bg-white-50 dim link dib mb2 br2 ph2 pb1 lh-solid v-top"
+                style="padding-top:2px;">
                 <img src="https://badges.gitter.im/stromdao/lobby.svg" alt="Gitter chat" title="gitter" height="16px">
               </a>
             </div>
-            <div class="pb3 pb4-ns pt3 pt4-ns mt4 black-70 fl-l w-50-l">
-              <h1 class="f4 fw6 f1-ns lh-title measure mt0">
+            <div class="pb3 pb4-ns pt3 pt4-ns">
+              <h1 class="f4 f2-m f1-l fw6 lh-title measure mt0">
                 Dezentral. Autonom. Elektrisch.
               </h1>
-              <p class="f5 f4-ns fw4 b measure dib-m lh-copy">
-                STROMDAO ist ein Anbieter von Blockchaininfrastuktur für die Strom- versorgung der Zukunft. Wir bauen ein Energiesystem zum mitmachen: Als Stromkunde können Sie an der Entwicklung unserer Technologie unmittelbar mitwirken. Bewerben Sie sich jetzt.
+              <p class="f5 f4-ns fw4 fw3-ns measure lh-copy">
+                STROMDAO ist ein Anbieter von Blockchaininfrastuktur für die Stromversorgung der Zukunft. Wir bauen ein Energiesystem zum mitmachen: Als Stromkunde können Sie an der Entwicklung unserer Technologie unmittelbar mitwirken. Jetzt anfragen und wechseln.
               </p>
             </div>
 
-            <div class="fl-l w-50-l tl tc-ns pt3 pt4-m pt6-l">
-              <form class="dib" action="index.html" method="post">
+            <div class="">
+              <form class="cf" action="index.html" method="post">
                 <label for="plz" class="db w-100 f4 fw6 mb2 f6 mt0 tl">
                   Postleitzahl eingeben und loslegen.
                 </label>
-                <input type="text" name="plz" id="plz" placeholder="" class="f5 w4 input-reset ba b--black-20 pv3 ph4 border-box">
-                <button id="getTarif" class="button-reset f6 f5-ns fw6 dib ba b--black-20 bg-blue white ph3 ph4-ns  pv2 pv3-ns br2  no-underline mb4" type="submit" name="" value="">
-                  Tarifinformationen ansehen
+                <input
+                  type="text"
+                  name="plz"
+                  id="plz"
+                  placeholder=""
+                  class="input-reset mw4 fl f5 ba b--black-20 bg-near-white black-50 br2 br--left ph3 ph4-ns pv3">
+                <button
+                  id="getTarif"
+                  class="button-reset fl f5 ba b--black-20 bg-blue white br2 br--right ph3 ph4-ns pv3 no-underline"
+                  type="submit"
+                  name=""
+                  value="">
+                  Angebot ansehen
                 </button>
-                <!-- <a href="#" class="">
-                  Jetzt Stromkunde werden.
-                </a> -->
               </form>
             </div>
+
           </div>
         </div>
       </article>
     </section>
+
   </block>
 </extends>
 <!-- <h2>Hello World!</h2>

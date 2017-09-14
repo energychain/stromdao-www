@@ -1,8 +1,8 @@
 # STROMDAO website
 
-[![Build Status](https://travis-ci.org/energychain/stromdao-www.svg?branch=master)](https://travis-ci.org/energychain/stromdao-www) [![Greenkeeper badge](https://badges.greenkeeper.io/energychain/stromdao-www.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/energychain/stromdao-www.svg?branch=master)](https://travis-ci.org/energychain/stromdao-www) [![dependencies Status](https://david-dm.org/energychain/stromdao-www/status.svg)](https://david-dm.org/energychain/stromdao-www)
 
-Repository for www.stromdao.de
+Repository for www.stromdao.de (work-in-progress)
 
 ## Setup
 
@@ -18,3 +18,6 @@ Tests are located in `test/**` and are powered by [ava](https://github.com/sindr
 - `npm test` to run test suite
 
 
+## Notes
+ - This website is built with [Spike](https://github.com/static-dev/spike). Documentation of Spike and [Spike Standards](https://spike.readme.io/docs/introduction) is available at [https://spike.readme.io/docs](https://spike.readme.io/docs)
+ - Styling is done with [Tachyons](https://github.com/tachyons-css/tachyons/). Find the tacyons documentation at [http://tachyons.io/docs/](http://tachyons.io/docs/)
