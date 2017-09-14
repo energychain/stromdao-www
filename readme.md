@@ -1,6 +1,6 @@
 # STROMDAO website
 
-[![Build Status](https://travis-ci.org/energychain/stromdao-www.svg?branch=master)](https://travis-ci.org/energychain/stromdao-www) [![Greenkeeper badge](https://badges.greenkeeper.io/energychain/stromdao-www.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/energychain/stromdao-www.svg?branch=master)](https://travis-ci.org/energychain/stromdao-www) [![dependencies](https://david-dm.org/energychain/stromdao-www.svg)](https://david-dm.org/energychain/stromdao-www)
 
 Repository for www.stromdao.de (work-in-progress)
 
