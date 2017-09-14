@@ -1,6 +1,6 @@
 # STROMDAO website
 
-[![Build Status](https://travis-ci.org/energychain/stromdao-www.svg?branch=master)](https://travis-ci.org/energychain/stromdao-www) [![dependencies](https://david-dm.org/energychain/stromdao-www.svg)](https://david-dm.org/energychain/stromdao-www)
+[![Build Status](https://travis-ci.org/energychain/stromdao-www.svg?branch=master)](https://travis-ci.org/energychain/stromdao-www) [![dependencies Status](https://david-dm.org/energychain/stromdao-www/status.svg)](https://david-dm.org/energychain/stromdao-www)
 
 Repository for www.stromdao.de (work-in-progress)
 
