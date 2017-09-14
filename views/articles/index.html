@@ -1,0 +1,25 @@
+<extends src='../layout.html'>
+  <block name="stylesheets">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  </block>
+
+  <block name='content'>
+    <article class="pa3 ph5-ns">
+      <div class="mw7 center mt5">
+        <h3 class="f6 ttu tracked mt0">Platzhalter Artikelübersicht</h3>
+        <div class="mt5">
+          <each loop="article of blog">
+            <h5 class="f4 f3-ns fw4 measure mt2">
+              <a class="link black-70 hover-blue" href="{{ '/articles/' + article.data._slug }}">{{ article.data.title }}</a>
+            </h5>
+          </each>
+        </div>
+      </div>
+    </article>
+  </block>
+
+  <block name="javascript">
+    <script src='../js/main.js' defer></script>
+  </block>
+</extends>
