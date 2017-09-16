@@ -7,10 +7,10 @@ Repository for www.stromdao.de (work-in-progress)
 ## Setup
 
 - make sure [node.js](http://nodejs.org) is at version >= `6`
-- `npm i spike -g`
 - clone this repo down and `cd` into the folder
 - run `npm install`
-- run `spike watch` or `spike compile`
+- run `npm start` to watch changes in browser or `npm run build` to  compile the output just once
+- run `npm run prod`  to compile for production (this will run some additional optimisations)
 
 ## Testing
 Tests are located in `test/**` and are powered by [ava](https://github.com/sindresorhus/ava)
